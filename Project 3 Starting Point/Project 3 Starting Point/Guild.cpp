@@ -1,6 +1,6 @@
 #include "Guild.h"
 
-Guild::Guild(std::string name) : _name(name)
+Guild::Guild(std::string name) : Mage(name), Paladin(name), Ranger(name), Warrior(name)
 {
 }
 

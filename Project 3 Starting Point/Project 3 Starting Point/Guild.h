@@ -7,7 +7,7 @@
 #include "Ranger.h"
 #include "Warrior.h"
 
-class Guild
+class Guild : public Mage, public Paladin, public Ranger, public Warrior
 {
 private:
 	std::vector<std::shared_ptr<Mage>> _mages;
